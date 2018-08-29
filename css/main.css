@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.my-awesome-navbar ul li a, .log {
+    transition: .4s;
+    font-size: 13px;
+  }
+  .my-awesome-navbar ul li a:hover, .log:hover {
+    color: #FF5274;
+    background: transparent;
+  }
+  .my-awesome-navbar {
+      padding: 30px 0;
+      transition: .5s;
+      z-index: 20;
+      height: auto;
+      box-shadow: 0 0 0 0;
+      border-bottom: 1px #aaa solid;
+  }
+  .container{
+    width: 90%;
+  }
+  .my-awesome-navbar .row {
+      margin: 0;
+  }
+  li{
+    
+      list-style: none;
+  }
+  .logo{
+    width: 100px;
+  }
+  .fijo{
+    transition: .4s;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+  }
+  .fondo{
+      background-image: url("../img/hero-min.jpg");
+      background-size: cover;
+      height: 750px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .bt1{
+    padding: 0 40px;
+    border-radius: 100px;
+    border: 1.5px white solid;
+    background-color: transparent !important;
+    transition: .4s;
+  }
+  .bt1:hover{
+    color: #FF5274;
+    border: 1.5px #FF5274 solid;
+    background: transparent;
+  }
+  .bt2{
+    padding: 13px 35px 13px 35px;
+    border-radius: 100px;
+    color: white;
+    background-color: rgb(255, 82, 116);
+    transition: .3s;
+    margin: 8px;
+    text-align: center;
+    padding: 15px 40px;
+  }
+  .bt2:hover{
+   background-color: #DA3A5D;
+  }
+  .bt3{
+    padding: 13px 35px 13px 35px;
+    border-radius: 100px;
+    border: 1.5px #FF5274 solid;
+    color:#FF5274 ;
+    transition: .3s;
+  }
+  .bt3:hover{
+    background-color:#FF5274;
+    color: white;
+   }
+ 
+  .parrafo{
+      color: white;
+    
+  }
+  .parrafo>div{
+      width: fit-content;
+      margin: 0 auto;
+  }
+  .par{
+      margin-top: 50px;
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 90px;
+  }
+ .titulo{
+     margin: 0;
+     text-align: center;
+     margin-bottom: 40px;
+    } 
+ .icono{
+    position: absolute;
+    animation: sube-y-baja 3s alternate infinite;
+    bottom: 20px;
+    color: white;
+}
+
+
+@keyframes sube-y-baja {
+    0% {
+        transform: translateY(0);
+    }
+    34% {
+        transform: translateY(-10px);
+    }
+    68% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);        
+    }
+}
+.contenedor{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+.img{
+    width: 12%;
+    align-self: flex-start;
+    margin-right: 16px;
+}
+.ti{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.tex{
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(28,54,83,.6);
+    padding-bottom: 20px;
+}
+h3, h5{
+    color: #3D4351;
+}
+h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+h5{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+p{
+    font-size: 15px;
+    line-height: 29px;
+    color: rgb(114, 130, 149);
+    padding-bottom: 20px;
+}
+.textos{
+    margin-top: 100px;
+    padding: 0 150px;
+}
+.columna{
+    display: flex;
+}
+.introduccion2 p{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.icono1 img{
+    width: 64%;
+    font-weight: 700;
+}
+.icono{
+    vertical-align: top;
+    padding: 6px 0 0;
+    margin-right: 20px;
+}
+.contenido {
+    width: 97%;
+}
+.row{
+
+    margin-bottom: 12px;
+}
+.container{
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.introduccion2{
+    background: #F3F4F8;
+    position: relative;
+}
+.introduccion2 .movil-img {
+    position: absolute;
+    bottom: -349px;
+    right: 61%;
+}
+.movil-img, .features {
+    position: relative;
+
+
+}
+.introduccion2 h3 {
+    margin: 0 0 20px;
+    
+}
+
+.introduccion2 .ipad-wrap {
+    width: 706px;
+    height: 1002px;
+    z-index: 1;
+}
+.introduccion2 .iphone-wrap {
+    width: 304px;
+    height: 620px;
+    background: url(../img/iphone6.png) center center no-repeat;
+    position: absolute;
+    left: 530px;
+    bottom: 129px;
+    
+}
+.introduccion2 ul.conte-icon {
+    margin-top: 70px;
+    bottom: 50px;
+    position: relative;
+}
+.introduccion2 ul.conte-icon li {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: solid 1px #E6E9EA;
+}
+.introduccion2 ul.conte-icon li:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.introduccion2 .content {
+    display: inline-block;
+    width: 75%; 
+}
+.uno{
+    width: 35px;
+    margin-right: 20px;
+    vertical-align: top;
+    padding: 6px 0 0;
+
+}
+.introduccion3{
+    background: #fff;
+}
+.features{
+    margin-top: -10px;
+    z-index: 3;
+    overflow: hidden;
+}
+.boton{
+    font-size: 13px;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 40px;
+    padding: 8px 40px;
+    color: #FF5274;
+}
+.boton:hover{
+    border: 2px solid #FF5274; 
+    background: #FF5274;
+    color: white;
+}
+.features .boton {
+    margin-top: 20px;
+}
+ .features .macbook-wrap {
+    position: relative;
+    height: 540px;
+    left: 35%;
+    top: -600px;
+}  
+.responsive-img{
+    display: none;
+}
+
+.tema1{
+    margin-top: -144px;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+
+    .features {
+        padding-bottom: 0;
+        
+    }
+    section .row .col .introduccion2-content {
+      width: 75%;
+    }  
+    .introduccion2{
+      padding-top: 28%;
+    }
+    .movil-img{
+        display: none;
+    }
+    .features .macbook-wrap{
+        display: none;
+    }
+    .responsive-img{
+        display: block;
+        width: 85%;
+        margin: 15% auto 0;
+    }
+    img{
+        width: 100%;
+        margin-top: -83px;
+    }
+}
+@media only screen and (min-width: 992px){
+    .container {
+        width: 970px;
+    }
+    .col-m-offset-7 {
+        margin-left: 58%;
+    }
+    .col-m5 {
+        float: left;
+        width: 41%;
+    }
+  
+    
+}
+@media only screen and (min-width: 1200px){
+    .introduccion2{
+        padding-top: 20%;
+      }
+    .container {
+        width: 1170px ;
+    }
+}
