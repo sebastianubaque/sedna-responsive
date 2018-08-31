@@ -7,6 +7,14 @@ document.addEventListener('DOMContentLoaded', function() {
   var instances = M.Materialbox.init(elems, options)
   
   AOS.init({once:true})
+
+  var scroll = document.querySelectorAll('.scrollspy')
+  var scrolloffset={
+    scrollOffset: 0,
+    throttle:1
+  }
+
+  var scrollInstances = M.ScrollSpy.init(scroll,scrolloffset)
   
   let nav = document.querySelector('nav')
 
